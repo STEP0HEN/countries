@@ -59,7 +59,7 @@ export default function Countries() {
               }}
               variant="h3"
             >
-              {name}
+              {name.toUpperCase()}
             </Typography>
             <Typography>
               {name}'s Capital is
@@ -70,7 +70,7 @@ export default function Countries() {
                   border: 0,
                   borderRadius: 3,
                   boxShadow: "0 3px 5px 2px rgba(255, 105, 135, .3)",
-                  color: "blue",
+                  color: "black",
                   padding: "0.5em",
                 }}
               >
